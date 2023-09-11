@@ -1,0 +1,435 @@
+/* Next Hub é o unico que não fica responsivo de acordo com o F12 do google*/
+
+/* #ID e .CLASS */
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+/**/
+
+body {
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  display: contents;
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(255, 255, 255);
+}
+
+.head {
+  display: flex;
+}
+
+.logo {
+  width: 6vw;
+  margin-left: 1vw;
+}
+
+.h1 {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  margin-left: 2vw;
+  color: #000;
+}
+
+.p1 {
+  display: flex;
+  margin-left: 42vw;
+  align-items: center;
+  font-size: 2vw;
+}
+
+/* Acima área do Header */
+a {
+  text-decoration: none;
+}
+.imagens_do_setor {
+  display: inline-table;
+  height: 15vh;
+  margin-left: 15vw;
+  margin-top: 3vh;
+  background-color: #a9a9a9;
+}
+.h3_setor {
+  color: #000000;
+  position: relative;
+  height: 5vh;
+  font-size: 2vh;
+  text-align: center;
+  width: 14vw;
+  margin-top: 5vh;
+}
+
+.itens {
+  background-image: url(./img/preview.jpg);
+  color: #000000;
+  width: 100vw;
+  background-size: cover;
+  height: 79vh;
+  position: absolute;
+}
+
+/* Abaixo Rodapé */
+#fooster {
+  width: 100vw;
+  height: 18vh;
+  margin-top: 78vh;
+  position: absolute;
+  display: inline-block;
+  background-color: #636363;
+}
+#fooster_menu {
+  width: 37vw;
+  font-size: 1.6vh;
+  display: inline-grid;
+  text-decoration: none;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-top: 1vh;
+}
+.espaco {
+  margin-bottom: 2vh;
+}
+
+#fooster_endereço {
+  width: 42vw;
+  font-size: 1.6vh;
+  display: inline-grid;
+  text-decoration: none;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-top: 1vh;
+  margin-bottom: 4vh;
+}
+#copyright {
+  margin-left: 65vw;
+  font-size: 1vw;
+  color: rgb(255, 255, 255);
+}
+
+/*media*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    display: contents;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .head {
+    display: flex;
+  }
+
+  .logo {
+    width: 6vw;
+    margin-left: 1vw;
+  }
+
+  .h1 {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 2vw;
+    color: #000;
+  }
+
+  .p1 {
+    display: flex;
+    margin-left: 42vw;
+    align-items: center;
+    font-size: 2vw;
+  }
+
+  /* Acima área do Header */
+  a {
+    text-decoration: none;
+  }
+  .imagens_do_setor {
+    display: inline-table;
+    height: 13vh;
+    margin-left: 13vw;
+    margin-top: 3vh;
+    background-color: #a9a9a9;
+  }
+  .h3_setor {
+    color: #000000;
+    position: relative;
+    height: 5vh;
+    font-size: 2vh;
+    text-align: center;
+    width: 15vw;
+    margin-top: 5vh;
+  }
+
+  .itens {
+    background-image: url(./img/preview.jpg);
+    color: #000000;
+    width: 100vw;
+    background-size: cover;
+    height: 78vh;
+    position: absolute;
+  }
+
+  /* Abaixo Rodapé */
+  #fooster {
+    width: 100vw;
+    height: 18vh;
+    margin-top: 78vh;
+    position: absolute;
+    display: inline-block;
+    background-color: #636363;
+  }
+  #fooster_menu {
+    width: 37vw;
+    font-size: 1.6vh;
+    display: inline-grid;
+    text-decoration: none;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 1vh;
+  }
+  .espaco {
+    margin-bottom: 2vh;
+  }
+
+  #fooster_endereço {
+    width: 42vw;
+    font-size: 1.6vh;
+    display: inline-grid;
+    text-decoration: none;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 1vh;
+    margin-bottom: 4vh;
+  }
+  #copyright {
+    margin-left: 50vw;
+    font-size: 1.5vw;
+    color: rgb(255, 255, 255);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .header {
+    display: contents;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .head {
+    display: flex;
+  }
+
+  .logo {
+    width: 6vw;
+    margin-left: 1vw;
+  }
+
+  .h1 {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 2vw;
+    color: #000;
+  }
+
+  .p1 {
+    display: flex;
+    margin-left: 42vw;
+    align-items: center;
+    font-size: 2vw;
+  }
+
+  /* Acima área do Header */
+  a {
+    text-decoration: none;
+  }
+  .imagens_do_setor {
+    display: inline-table;
+    height: 12vh;
+    margin-left: 8vw;
+    margin-top: 3vh;
+    background-color: #a9a9a9;
+  }
+  .h3_setor {
+    color: #000000;
+    position: relative;
+    height: 5vh;
+    font-size: 2vh;
+    text-align: center;
+    width: 22vw;
+    margin-top: 4vh;
+  }
+
+  .itens {
+    background-image: url(./img/preview.jpg);
+    color: #000000;
+    width: 100vw;
+    background-size: cover;
+    height: 79vh;
+    position: absolute;
+  }
+
+  /* Abaixo Rodapé */
+  #fooster {
+    width: 100vw;
+    height: 18vh;
+    margin-top: 79vh;
+    position: absolute;
+    display: inline-block;
+    background-color: #636363;
+  }
+  #fooster_menu {
+    width: 37vw;
+    font-size: 1.6vh;
+    display: inline-grid;
+    text-decoration: none;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 1vh;
+  }
+  .espaco {
+    margin-bottom: 2vh;
+  }
+
+  #fooster_endereço {
+    width: 42vw;
+    font-size: 1.6vh;
+    display: inline-grid;
+    text-decoration: none;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+  }
+  #copyright {
+    margin-left: 50vw;
+    font-size: 1.5vw;
+    color: rgb(255, 255, 255);
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .header {
+    width: 100vw;
+    height: 6vh;
+    display: contents;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .head {
+    display: flex;
+  }
+
+  .logo {
+    width: 15vw;
+    margin-left: 1vw;
+  }
+
+  .h1 {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 2vw;
+    font-size: 4vw;
+  }
+  .p1 {
+    display: flex;
+    margin-left: 22vw;
+    align-items: center;
+    font-size: 3vw;
+  }
+
+  /* Acima área do Header */
+  a {
+    text-decoration: none;
+  }
+  .imagens_do_setor {
+    display: inline-table;
+    height: 10vh;
+    margin-left: 12vw;
+    margin-top: 3vh;
+    background-color: #a9a9a9;
+  }
+  .h3_setor {
+    color: #000000;
+    position: relative;
+    height: 5vh;
+    font-size: 2vh;
+    text-align: center;
+    width: 30vw;
+    margin-top: 3vh;
+  }
+
+  .itens {
+    background-image: url(./img/preview.jpg);
+    color: #000000;
+    width: 100vw;
+    background-size: auto;
+    height: 83vh;
+    position: absolute;
+  }
+
+  /* Abaixo Rodapé */
+  #fooster {
+    width: 100vw;
+    height: 15vh;
+    margin-top: 82vh;
+    position: absolute;
+    display: inline-block;
+    background-color: #636363;
+  }
+  #fooster_menu {
+    width: 37vw;
+    font-size: 1.2vh;
+    display: inline-grid;
+    text-decoration: none;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 1vh;
+  }
+  .espaco {
+    margin-bottom: 2vh;
+  }
+
+  #fooster_endereço {
+    width: 42vw;
+    font-size: 1.2vh;
+    display: inline-grid;
+    text-decoration: none;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+  }
+  #copyright {
+    margin-left: 50vw;
+    font-size: 1.5vw;
+    color: rgb(255, 255, 255);
+  }
+}
